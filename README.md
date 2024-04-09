@@ -1,5 +1,6 @@
 # Flutter Design Patterns
  Exemplos em flutter com os principais modelos de designs patterns
+ Para o desempenho das rotas, estou usando o padrão GetX.
 
 ## Singleton 
 Garante que uma classe tenha apenas uma instância e fornece um ponto de acesso global para essa instância.
