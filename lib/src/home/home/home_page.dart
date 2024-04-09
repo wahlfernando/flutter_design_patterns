@@ -30,9 +30,6 @@ class HomePage extends GetView<HomeController> {
                   },
                   child: const ChildElevateButton(title: 'Padrão Singleton'),
                 ),
-                const SizedBox(
-                   height: 16,
-                ),
                 ElevatedButton(
                   onPressed: () {
                     ExternalLibrary externalLib = ExternalLibrary();
@@ -55,7 +52,12 @@ class HomePage extends GetView<HomeController> {
                   },
                   child: const ChildElevateButton(title: 'Modelo Design Patterns: Build'),
                 ),
-                
+                ElevatedButton(
+                  onPressed: () {
+                    Get.toNamed('/prototype');
+                  },
+                  child: const ChildElevateButton(title: 'Modelo Design Patterns: Prototype'),
+                ),
               ],
             ),
           ),
